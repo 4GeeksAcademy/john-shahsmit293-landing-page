@@ -2,10 +2,12 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import Jumbotron from "./jumbotron";
 
 //create your first component
 const Home = () => {
   return (
+    <div>
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-light" href="#">
@@ -53,6 +55,11 @@ const Home = () => {
         </div>
       </div>
     </nav>
+    <div class="margin">
+    <Jumbotron />
+    </div>
+    </div>
+    
   );
 };
 
