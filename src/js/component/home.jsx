@@ -15,7 +15,11 @@ const Home = () => {
         <Nav />
       </div>
       <div className="margin">
-        <Jumbotron />
+          <Jumbotron 
+            jumbotronTitle={"A Warm Welcome!"}
+            description={"This is just filler words, this sentence means nothing. It is just here to take up space until there is a real description for this jumbotron. Thanks for looking at this landing page."}
+            button={"Check it out!"}
+            />
       </div>
       <div className="images">
         <div className="row gy-3">
