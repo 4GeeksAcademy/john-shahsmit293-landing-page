@@ -1,11 +1,12 @@
 import React from "react";
+import propTypes, { number, string } from "prop-types";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand text-light" href="#">
-          Start Bootstrap
+          {props.title}
         </a>
         <button
           className="navbar-toggler"
@@ -46,6 +47,10 @@ const Nav = () => {
       </div>
     </nav>
   );
+};
+
+Nav.propTypes = {
+  title: propTypes.string
 };
 
 export default Nav;

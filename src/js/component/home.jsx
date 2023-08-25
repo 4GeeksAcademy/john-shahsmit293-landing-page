@@ -11,9 +11,7 @@ import Nav from "./nav";
 const Home = () => {
   return (
     <div>
-      <div className="header">
-        <Nav />
-      </div>
+        <Nav title={"Start Bootstrap"}/>
       <div className="margin">
           <Jumbotron 
             jumbotronTitle={"A Warm Welcome!"}
