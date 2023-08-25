@@ -1,5 +1,17 @@
 .margin {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  background-color: whitesmoke;
+  border: 1px solid;
+}
+
+.images {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.footer {
+  margin-top: 3%;
 }
